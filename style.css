@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background-color: white;
+}
+.left{
+    width : 25vw;
+    padding:10px;
+}
+.right{
+    width: 75vw;
+}
+.home{
+    padding: 10px;
+}
+.home ul li{
+    display: flex;
+    gap: 5px;
+    width: 14px;
+    padding-top:  10px;
+    list-style: none;
+
+}
