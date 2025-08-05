@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto", sans-serif;
 
 }
 body{
@@ -9,18 +13,104 @@ body{
 .left{
     width : 25vw;
     padding:10px;
+    
 }
 .right{
     width: 75vw;
+    margin-top: 15px;
+    
 }
 .home{
     padding: 10px;
+
 }
 .home ul li{
     display: flex;
-    gap: 5px;
+    gap: 15px;
     width: 14px;
     padding-top:  10px;
     list-style: none;
+    font-weight: bold;
 
 }
+.heading{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    padding-top:  10px;
+    list-style: none;
+    font-weight: bold;
+    align-items: center;
+    padding: 23px 14px;
+    font-size: 13px;
+    
+
+}
+.heading img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.footer{
+    font-size: 14px;
+    gap: 10px;
+
+    
+    
+}
+.footer a{
+    color: grey;
+}
+.library{
+    min-height: 50vh ;
+    position: relative;
+    min-height: 80vh;
+
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    font-size: 25;
+    margin-bottom: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.header *{
+    padding: 4px;
+
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+.arrows{
+    padding-top: 1px;
+}
+.spotifyPlaylists{
+    padding: 16px;
+}
+.spotifyPlaylists .card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+}
+.card > *{
+    padding-top: 10px;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 30px;
+}
+
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+
+
