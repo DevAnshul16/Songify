@@ -32,7 +32,6 @@ async function getSongs(folder) {
                             <div class="info">
                                 <div> ${song.replaceAll("%20", " ")}
                                 </div>
-                                <div>Harry</div>
                             </div>
                             <div class="playnow">
                                 <span>Play Now</span>
