@@ -14,7 +14,7 @@ Experience Songify in action! The demo showcases all the features including play
 ## 📸 Screenshots
 
 ![Songify Interface](img/cover.jpg)
-*Main interface showing the playlist library and music player*
+
 
 ## ✨ Features
 
